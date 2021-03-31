@@ -144,7 +144,7 @@ const styleGenerator = styleGeneratorProps => {
   const { backgroundColor } = ownProps;
 
   const contentStyle = [
-    styles.content,
+    // styles.content,
     height > 0 && { height }, // ignore special case of -1 with center placement (and 0 when not yet measured)
     width > 0 && { width }, // ignore special case of -1 with center placement (and 0 when not yet measured)
     ownProps.contentStyle,
